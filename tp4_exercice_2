@@ -1,0 +1,15 @@
+class Rectangle:
+    def __init__ (self, longeur, largeur):
+        self.aire = None
+        self.longeur = longeur
+        self.largeur = largeur
+
+    def calcul_aire(self):
+        self.aire = self.longeur * self.largeur
+        return self.aire
+    def afficher(self):
+        print(f"`{self.aire} est l'aire")
+
+ipad = Rectangle(15, 25)
+ipad.calcul_aire()
+ipad.afficher()
