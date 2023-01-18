@@ -1,0 +1,23 @@
+#Gabriel Claude-Giroux, 405, 18 janvier 2
+#dans ce code, on va trouver la circonfer
+from math import pi                      
+class Cercle:                            
+ def __init__(self, rayon, longeur):     
+   self.rayon = int(input("quelle est la 
+   self.aire = pi * self.rayon * self.ray
+   self.circonference = pi * self.rayon *
+                                         
+                                         
+ def __int__(self):                      
+   return f"{self.rayon})"               
+                                         
+                                         
+                                         
+p1 = Cercle(0, 0)                        
+print("le rayon est:")                   
+print(p1.rayon)                          
+print("l'aire est:")                     
+print(p1.aire)                           
+print("la circonference est:")           
+print(p1.circonference)                  
+                                         
