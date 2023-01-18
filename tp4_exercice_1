@@ -1,4 +1,4 @@
-#Gabriel Claude-Giroux, 405, 18 janvier 2022                                                                            
+#Gabriel Claude-Giroux, 405, 17 janvier 2022                                                                            
 #dans ce code, on va retraduire le mot pour ton animal prefere en majuscule                                                                                                                                                    
 
 class StringFoo:
