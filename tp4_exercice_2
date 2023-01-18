@@ -1,3 +1,6 @@
+#Gabriel Claude-Giroux, 405, 11 janvier 2022                                                                            
+#dans ce code, on va trouver laire d'un rectangle a partir de sa longueur et largeur                            
+                                                                                                                        
 class Rectangle:
     def __init__ (self, longeur, largeur):
         self.aire = None
