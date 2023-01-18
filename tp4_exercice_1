@@ -1,3 +1,6 @@
+#Gabriel Claude-Giroux, 405, 18 janvier 2022                                                                            
+#dans ce code, on va retraduire le mot pour ton animal prefere en majuscule                                                                                                                                                    
+
 class StringFoo:
  def __init__(self, message, set_string):
    self.message = str(input("C'est quoi ton animal préféré ? "))
