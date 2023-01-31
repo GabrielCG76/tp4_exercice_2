@@ -1,0 +1,22 @@
+#Gabriel Claude-Giroux, 405, 31 janvier 2022
+#dans ce code, on va defenir notre classe hero et quelques de ces caracteristiques
+
+
+
+
+class Hero:
+    def __init__(self, nom):
+        self.nombre_de_vie = random.randint(1, 10) + random.randint(1, 10)
+        self.force_defense = random.randint(1, 6)
+        self.force_attack = random.randint(1, 6)
+        self.nom = nom
+        self.caracteristique = Personnage()
+
+    def dommage(self, dommage):
+        self.nombre_de_vie -= dommage - self.force_defense
+
+    def attack(self):
+        return random.randint(1, 6) + self.force_attack
+
+    def est_vivant(self):
+        return self.nombre_de_vie > 0
